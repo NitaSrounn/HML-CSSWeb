@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flower. — Fresh Flowers</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+
+<input type="radio" name="page" id="page-home" class="page-toggle" checked>
+<input type="radio" name="page" id="page-about" class="page-toggle">
+<input type="radio" name="page" id="page-features" class="page-toggle">
+<input type="radio" name="page" id="page-products" class="page-toggle">
+<input type="radio" name="page" id="page-review" class="page-toggle">
+<input type="radio" name="page" id="page-contact" class="page-toggle">
+
+<input type="checkbox" id="nav-toggle" aria-hidden="true">
+
+
+<nav>
+  <label class="logo" for="page-home">Flower<span>.</span></label>
+  <ul class="nav-links">
+    <li><label for="page-home">Home</label></li>
+    <li><label for="page-about">About</label></li>
+    <li><label for="page-features">Features</label></li>
+    <li><label for="page-products">Products</label></li>
+    <li><label for="page-review">Review</label></li>
+    <li><label for="page-contact">Contact</label></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-icons">
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-user"></i>
+    </div>
+    <label class="hamburger-label" for="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</nav>
+
+
+<div class="mobile-menu">
+  <label for="page-home" class="mobile-link">Home</label>
+  <label for="page-about" class="mobile-link">About</label>
+  <label for="page-features" class="mobile-link">Features</label>
+  <label for="page-products" class="mobile-link">Products</label>
+  <label for="page-review" class="mobile-link">Review</label>
+  <label for="page-contact" class="mobile-link">Contact</label>
+</div>
+
+<section id="home">
+  <div class="hero-text fade-in">
+    <h1>Fresh Flowers</h1>
+    <h2>Natural &amp; Beautiful Flowers</h2>
+    <p>Welcome to Fresh Flowers, everyone you can find the flowers you need on this website.</p>
+    <label for="page-products" class="btn">Shop Now</label>
+  </div>
+  <div class="hero-img fade-in">
+    <img src="../Image/pic1.jpg" alt="Fresh pink tulips">
+  </div>
+</section>
+
+
+<section id="about">
+  <div class="about-grid fade-in">
+    <div class="about-imgs">
+      <img src="../Image/pic13.jpg" alt="Flower field">
+      <div class="caption">Best Flower Sellers</div>
+      <img src="../Image/pic15.jpg" alt="Flower field 2">
+    </div>
+    <div class="about-text">
+      <h2 class="section-title"><span>About</span> Us</h2>
+      <h3 style="font-family:'Playfair Display',serif;font-size:clamp(1.1rem,3vw,1.5rem);margin-bottom:14px;">Why Choose Us</h3>
+      <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Cupiditate Ea Placeat Deserunt Amet Blanditiis Dicta, Perferendis Voluptate Porro Enim Doloremque Saepe Optio Minus Temporibus Nesciunt! Officia Eius In Possimus.</p>
+      <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolores Iusto Necessitatibus Debitis. Repellat Eveniet Illo Debitis Incidunt Ex, Quasi Corporis.</p>
+      <label for="page-products" class="btn" style="margin-top:8px;">Learn More</label>
+    </div>
+  </div>
+</section>
+
+<section id="features" style="background:#f3f3f3;">
+  <div style="text-align:center;" class="fade-in">
+    <h2 class="section-title">Our <span>Features</span></h2>
+  </div>
+  <div class="features-grid fade-in">
+
+    <div class="feature-card">
+      <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+      <div class="feature-text"><h4>Free Shipping</h4><p>On All Orders</p></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon"><i class="fa-solid fa-rotate-left"></i></div>
+      <div class="feature-text"><h4>10 Days Returns</h4><p>Moneyback Guarantee</p></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon"><i class="fa-solid fa-gift"></i></div>
+      <div class="feature-text"><h4>Offer &amp; Gift</h4><p>On All Orders</p></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div class="feature-text"><h4>Secure Payment</h4><p>Protected By Paypal</p></div>
+    </div>
+
+  </div>
+</section>
+
+<section id="products">
+  <div style="text-align:center;" class="fade-in">
+    <h2 class="section-title">Latest <span>Products</span></h2>
+  </div>
+  <div class="products-grid">
+
+    <div class="product-card fade-in">
+      <span class="badge">-10%</span>
+      <img src="../Image/pic4.jpg" alt="Purple Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>Purple Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-15%</span>
+      <img src="../Image/pic5.jpg" alt="Pink Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>Pink Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-5%</span>
+      <img src="../Image/pic6.jpg" alt="White Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>White Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-15%</span>
+      <img src="../Image/pic7.jpg" alt="mini White Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>mini White Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-20%</span>
+      <img src="../Image/pic8.jpg" alt="Mix Colors Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>Mix Colrs Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-5%</span>
+      <img src="../Image/pic9.jpg" alt="WhiteANDPink Tulips">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>WhiteANDPink Tulips</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-15%</span>
+      <img src="../Image/pic10.jpg" alt="Pink Rose">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>Pink Rose</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-10%</span>
+      <img src="../Image/pic11.jpg" alt="Pink LiLi">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>Pink LiLi</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+    <div class="product-card fade-in">
+      <span class="badge">-12%</span>
+      <img src="../Image/pic12.jpg" alt="White Rose">
+      <div class="overlay">
+        <span class="fav"><i class="fa-solid fa-heart"></i></span>
+        <span class="add-cart">Add To Cart</span>
+        <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
+      </div>
+      <div class="card-info"><h3>White Rose</h3><div><span class="price">$15.99</span><span class="old-price">$18.99</span></div></div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="review">
+  <div style="text-align:center;" class="fade-in">
+    <h2 class="section-title">Customer's <span>Review</span></h2>
+  </div>
+  <div class="reviews-grid">
+
+    <div class="review-card fade-in">
+      <div class="stars">★★★★★</div>
+      <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Asperiores Sint Corporis Voluptate Non Error Obcaecati Adipisci A Autem? Similique Animi Quae Impedit Vel Dicta Placeat Ad Temporibus Illo Distinctio. Tenetur!</p>
+      <div class="reviewer">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Deo">
+        <div><h4>John Deo</h4><span>Happy Customer</span></div>
+      </div>
+      <div class="quote-icon">"</div>
+    </div>
+
+    <div class="review-card fade-in">
+      <div class="stars">★★★★★</div>
+      <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Asperiores Sint Corporis Voluptate Non Error Obcaecati Adipisci A Autem? Similique Animi Quae Impedit Vel Dicta Placeat Ad Temporibus Illo Distinctio. Tenetur!</p>
+      <div class="reviewer">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Deo">
+        <div><h4>Jane Deo</h4><span>Happy Customer</span></div>
+      </div>
+      <div class="quote-icon">"</div>
+    </div>
+
+    <div class="review-card fade-in">
+      <div class="stars">★★★★★</div>
+      <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Asperiores Sint Corporis Voluptate Non Error Obcaecati Adipisci A Autem? Similique Animi Quae Impedit Vel Dicta Placeat Ad Temporibus Illo Distinctio. Tenetur!</p>
+      <div class="reviewer">
+        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mark Deo">
+        <div><h4>Mark Deo</h4><span>Happy Customer</span></div>
+      </div>
+      <div class="quote-icon">"</div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="contact">
+  <div style="text-align:center;margin-bottom:44px;" class="fade-in">
+    <h2 class="section-title"><span>Contact</span> Us</h2>
+  </div>
+  <div class="contact-grid fade-in">
+    <div class="contact-form">
+      <input type="text" placeholder="name">
+      <input type="email" placeholder="email">
+      <input type="tell" placeholder="number">
+      <textarea placeholder="message"></textarea>
+      <button class="btn btn-pink" style="width:fit-content;">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid fade-in">
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><label for="page-home">Home</label></li>
+        <li><label for="page-about">About</label></li>
+        <li><label for="page-features">Features</label></li>
+        <li><label for="page-products">Products</label></li>
+        <li><label for="page-review">Review</label></li>
+        <li><label for="page-contact">Contact</label></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Extra Links</h4>
+      <ul>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">My Order</a></li>
+        <li><a href="#">My Favorite</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Locations</h4>
+      <ul>
+        <li><a href="#">Phnom Penh</a></li>
+        <li><a href="#">KompongCham</a></li>
+        <li><a href="#">Kompot</a></li>
+        <li><a href="#">Siemreab</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <p>+977-945-278<br>Example@Gmail.Com<br>flower, kh - 884912</p>
+      <div class="payment-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg" alt="Amex">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Discover_Card_logo.svg" alt="Discover">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa">
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Created By <a href="#">Sroun Nita</a> | All Rights Reserved
+  </div>
+</footer>
+
+</body>
+</html>
